@@ -2,7 +2,7 @@
   "name": "07-restserver",
   "version": "1.0.0",
   "engines": {
-    "node": "14.6"
+    "node": "12.11.1"
      },
   "description": "",
   "main": "index.js",
