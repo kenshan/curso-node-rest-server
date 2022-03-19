@@ -1,4 +1,4 @@
-const Roles = require('../models/Roles');
+const Roles = require('../models/roles');
 const Usuario = require('../models/users');
 
 const esRolValido = async (rol = "")=>{
