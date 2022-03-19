@@ -1,5 +1,5 @@
-// require('dotenv').config();
-// "dotenv": "^16.0.0",
+require('dotenv').config();
+
 
 const Server = require('./models/server');
 
