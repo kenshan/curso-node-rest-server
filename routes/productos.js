@@ -1,7 +1,7 @@
 const {Router} = require('express');
 const { check } = require('express-validator');
 const { login, googleSingIn } = require('../controller/auth');
-const { crearProducto, obtenerProductos , obtenerProducto, borrarProducto, actualizarProducto } = require('../controller/Productos');
+const { crearProducto, obtenerProductos , obtenerProducto, borrarProducto, actualizarProducto } = require('../controller/productos');
 const { existeProducto } = require('../helpers/db-validatos');
 const { validarJwt,validarCampos, esAdminRole } = require('../middlewares');
 const { existeCategoria } = require('../helpers/db-validatos');
